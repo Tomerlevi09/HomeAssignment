@@ -19,7 +19,7 @@ public class TestSuite extends TestsSetup{
         PageObjects.sendFooterFormFields();
     }
 
-    @Test(priority = 4, description = "Test whastApp link")
+    @Test(priority = 4, description = "Test whatsApp link")
     public void testwhatAppLink() {
         PageObjects.testWhatsAppLink();
     }
