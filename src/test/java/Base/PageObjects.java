@@ -8,7 +8,8 @@ import java.util.Set;
 import static org.testng.Assert.assertEquals;
 
 public class PageObjects extends BaseMethods {
-    public PageObjects(WebDriver driver) {
+    public PageObjects(WebDriver driver)
+    {
         super(driver);
     }
 

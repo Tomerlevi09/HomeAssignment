@@ -8,6 +8,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 public class TestsSetup {
+
     WebDriver driver;
     Base.PageObjects PageObjects;
 
