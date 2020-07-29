@@ -33,7 +33,7 @@ public class TestSuite extends TestsSetup{
         PageObjects.testNumberOfProjects();
     }
 
-    @Test(priority = 7 , description = "Test the form at the bottom")
+    @Test(priority = 7 , description = "Test the form at the bottom of the page")
     public void testBottomForm() {
         PageObjects.sendBottomFormFields();
     }
